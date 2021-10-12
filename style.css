@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid rgb(167, 182, 187);
+  min-height: 10vh;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+.control-panel {
+  display: flex;
+  gap: 20px;
+}
+
+.control-panel button {
+  padding: 10px;
+  border-radius: 50%;
+}
